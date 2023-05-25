@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hey, it's Annisa!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content=" " />
+    <meta name="keywords" content="" />
+    <meta content="Themesdesign" name="author" />
+
+    <link rel="shortcut icon" href="images/hello1.png" />
+
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.min.css"
+      type="text/css"
+      id="bootstrap-style"
+    />
+
+    <!-- Material Icon Css -->
+    <link
+      rel="stylesheet"
+      href="css/materialdesignicons.min.css"
+      type="text/css"
+    />
+
+    <!-- Unicon Css -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="css/tiny-slider.css" type="text/css" />
+    <link rel="stylesheet" href="css/tiny-slider.css.map" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.min.css" type="text/css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="71">
+    <!-- light-dark mode button -->
+    <a
+      href="javascript: void(0);"
+      id="mode"
+      class="mode-btn text-white rounded-end"
+    >
+      <i class="uil uil-brightness mode-dark mx-auto"></i>
+      <i class="uil uil-moon bx-spin mode-light"></i>
+    </a>
+
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
+      <div class="container-fluid custom-container">
+        <a class="navbar-brand logo text-uppercase" href="index.html">
+          <img
+            src="images/hello1.png"
+            class="logo-light"
+            alt=""
+            height="60"
+          />
+          <img
+            src="images/hello1.png"
+            class="logo-dark"
+            alt=""
+            height="60"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler me-3 order-2 ms-4"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-label="Toggle navigation"
+        >
+          <i class="mdi mdi-menu"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto navbar-center">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item dropdown dropdown-hover">
+              <a href="#aboutme" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item dropdown dropdown-hover">
+              <a href="#service" class="nav-link">Service</a>
+            </li>
+            <li class="nav-item dropdown dropdown-hover">
+              <a href="#work" class="nav-link">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <!--end navbar-nav-->
+      <!--end container-->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- home section -->
+    <section class="home-4 position-relative overflow-hidden pb-0">
+      <div class="bg-overlay-image"></div>
+      <!-- container -->
+      <div class="container position-relative">
+        <div class="my-name mt-3 mt-lg-0">
+          <div class="d-flex">
+            <div class="hi-icon fs-40">👋🏼</div>
+            <div class="name-content ms-4">
+              <p class="mb-0">Hello, I'm</p>
+              <h2 class="mb-0">Annisa!</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact mt-3 mt-lg-0">
+          <div class="d-flex align-items-center">
+            <div class="icon">
+              <i class="mdi mdi-email-outline fs-20 text-dark"></i>
+            </div>
+            <div class="email ms-2">
+              <a href="mailto:annisaerlambang@gmail.com" class="text-muted fs-15">annisaerlambang@gmail.com</a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mt-2">
+            <div class="icon">
+              <i class="mdi mdi-phone-outline fs-20 text-dark"></i>
+            </div>
+            <div class="email ms-2">
+              <a href="https://wa.me/6285156869463" target="_blank" class="text-muted fs-15">+62 851 5686 9463</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text mt-3 mt-lg-0">
+          <div class="d-flex align-items-center">
+          </div>
+
+          <p class="text-muted mt-4">
+            Hello there! <br />
+            Thank you for visiting my web portfolio. <br />
+            I'm incredibly excited to have you here!
+          </p>
+        </div>
+
+        <div class="bottom-text mt-3 mt-lg-0">
+          <p class="mb-0 fs-14 text-muted">&copy; 2023 Annisa Erlambang</p>
+          <p class="fs-14 text-muted">All Rights Reserved</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <img src="images/poto.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+
+      <div
+        class="modal fade bd-example-modal-lg"
+        id="watchvideomodal"
+        data-keyboard="false"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
+          <div class="modal-content hero-modal-0 bg-transparent">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <video id="VisaChipCardVideo1" class="w-100" controls>
+              <source
+                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                type="video/mp4"
+              />
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end home section -->
+
+    <!-- about-me section -->
+    <section class="section about-me" id="aboutme">
+      <!-- container -->
+      <div class="container">
+        <div class="about-box">
+          <div class="row">
+            <div class="col-lg-6 position-relative">
+              <div class="image-round"></div>
+              <div class="about-image p-4 pb-0">
+                <img src="images/poto2.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="about-item p-5">
+                <h2 class="display-5 fw-semibold">About Me</h2>
+                <p class="text-muted fs-14">
+                    Welcome to my web portfolio! I'm Annisa Erlambang, 
+                    an aspiring Software Engineering Technology student at IPB University. 
+                    I am passionate about leveraging technology to create innovative solutions and 
+                    enhance user experiences. In this portfolio, you'll discover a collection 
+                    of my best work and projects, which highlight my skills and creativity.
+                </p>
+
+                <ul
+                  class="nav nav-pills mb-3 mt-4 pt-2"
+                  id="pills-tab"
+                  role="tablist"
+                >
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="pills-home-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-home"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-home"
+                      aria-selected="true"
+                    >
+                      Skills
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-profile-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-profile"
+                      aria-selected="false"
+                    >
+                      Experience
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-contact-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-contact"
+                      aria-selected="false"
+                    >
+                      Education
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                  >
+                    <div class="skill-item mt-4 pt-2">
+                      <div class="d-flex justify-content-between">
+                        <h6>Web Development</h6>
+                        <h6>70%</h6>
+                      </div>
+                      <div class="progress" style="height: 5px">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuenow="70"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 70%"
+                        ></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item mt-4 pt-2">
+                      <div class="d-flex justify-content-between">
+                        <h6>Design</h6>
+                        <h6>85%</h6>
+                      </div>
+                      <div class="progress" style="height: 5px">
+                        <div
+                          class="progress-bar bg-warning"
+                          role="progressbar"
+                          aria-valuenow="85"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 85%"
+                        ></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item mt-4 pt-2">
+                      <div class="d-flex justify-content-between">
+                        <h6>Copywriting</h6>
+                        <h6>85%</h6>
+                      </div>
+                      <div class="progress" style="height: 5px">
+                        <div
+                          class="progress-bar bg-warning"
+                          role="progressbar"
+                          aria-valuenow="85"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 85%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-profile"
+                    role="tabpanel"
+                    aria-labelledby="pills-profile-tab"
+                  >
+                    <div class="experience">
+                      <div class="row position-relative">
+                        <div class="col-2">
+                          <div class="border-left"></div>
+                        </div>
+                        <div class="col-10">
+                          <div class="mt-4 pt-2">
+                            <h5>Copywriter | FishLog</h5>
+                            <p class="text-muted fs-15">
+                              Sep 2022 - Mar 2023
+                            </p>
+                            <p class="text-muted fs-15">
+                              <ul>
+                                <li>Menulis teks untuk iklan, artikel, dan konten media sosial</li>
+                                <li>Menghasilkan ide-ide kreatif untuk konten tulisan yang menarik perhatian target audiens</li>
+                                <li>Meneliti topik tertentu dan membuat tulisan yang informatif dan mudah dimengerti</li>
+                                </ul>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row position-relative">
+                        <div class="col-2">
+                          <div class="border-left"></div>
+                        </div>
+                        <div class="col-10">
+                          <div class="mt-4 pt-2">
+                            <h5>Front-End | Kompetisi OLIVIA</h5>
+                            <p class="text-muted fs-15 mb-0">
+                              Sep 2022
+                            </p>
+                            <p class="text-muted fs-15">
+                                <ul>
+                                    <li>Membuat desain dan layout website yang responsif dan dapat diakses di berbagai perangkat dan browser dalam lomba Desain 
+                                        Website di Olimpiade Vokasi Indonesia (OLIVIA) serta untuk proyek akhir semester</li>
+                                    <li>Menerjemahkan desain visual ke dalam kode HTML dan PHP</li>
+                                    </ul>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row position-relative">
+                        <div class="col-2">
+                          <div class="border-left"></div>
+                        </div>
+                        <div class="col-10">
+                          <div class="mt-4 pt-2">
+                            <h5>Graphic Designer | Proyek Desain</h5>
+                            <p class="text-muted fs-15">
+                              2021 - 2022
+                            </p>
+                            <p class="text-muted fs-15">
+                              <ul>
+                                <li>Membuat E-book yang bekerja sama dengan Kementerian Pertanian RI</li>
+                                <li>Membuat sebuah Augmented Reality untuk proyek akhir semester</li>
+                                <li>Membuat sebuah Motion Graphic untuk proyek akhir semester</li>
+                                </ul>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-contact"
+                    role="tabpanel"
+                    aria-labelledby="pills-contact-tab"
+                  >
+                    <div class="experience">
+                      <div class="row position-relative">
+                        <div class="col-2">
+                          <div class="border-left"></div>
+                        </div>
+                        <div class="col-10">
+                          <div class="mt-4 pt-2">
+                            <h5>IPB University</h5>
+                            <p class="text-muted fs-15">
+                              2020 - 2024 (Expected)
+                            </p>
+                            <p class="text-muted fs-15">
+                              Software Engineering Technology
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row position-relative">
+                        <div class="col-2">
+                          <div class="border-left"></div>
+                        </div>
+                        <div class="col-10">
+                          <div class="mt-4 pt-2">
+                            <h5>SMA N 11 Jakarta</h5>
+                            <p class="text-muted fs-15 mb-0">
+                              2017 - 2020
+                            </p>
+                            <p class="text-muted fs-15">
+                              Science
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end about-me -->
+
+    <!-- start service -->
+    <section class="section service" id="service">
+      <!-- start container -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="text-center mb-5">
+              <h2>Services</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-item box-shadow mt-6 pt-2">
+              <div class="p-4">
+                <div class="research avatar-sm bg-soft-danger text-center">
+                  <i class="mdi mdi-language-html5 fs-24 text-danger"></i>
+                </div>
+                <h6 class="mt-4">Web Development</h6>
+                <p class="text-muted fs-15">
+                    I can create a website with several programming languages such as HTML, PHP, and Wordpress.
+                    From designing layouts to adding functionality, I create visually appealing web solutions that work seamlessly. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="info-item box-shadow mt-6 pt-2">
+              <div class="p-4">
+                <div class="research avatar-sm bg-soft-purple text-center">
+                  <i class="mdi mdi-view-dashboard fs-24 text-purple"></i>
+                </div>
+                <h6 class="mt-4">UI / UX Design</h6>
+                <p class="text-muted fs-15">
+                    I create user-friendly and visually appealing interfaces for a great user experience. 
+                    My designs focus on simplicity and engagement to ensure users have a smooth and enjoyable interaction.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-item box-shadow mt-6 pt-2">
+              <div class="p-4">
+                <div class="research avatar-sm bg-soft-blue text-center">
+                  <i class="mdi mdi-drawing-box fs-24 text-blue"></i>
+                </div>
+                <h6 class="mt-4">Design</h6>
+                <p class="text-muted fs-15">
+                    I create stunning designs for various purposes. 
+                    Whether it's eye-catching graphics, marketing materials, or brand identities.
+                    I use Adobe tools to make visually compelling content.
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-6">
+          <div class="info-item box-shadow mt-6 pt-2">
+            <div class="p-4">
+              <div class="research avatar-sm bg-soft-primary text-center">
+                <i class="mdi mdi-clipboard-text fs-24 text-primary"></i>
+              </div>
+              <h6 class="mt-4">Copywriting</h6>
+              <p class="text-muted fs-15">
+                I provide professional writing services to help businesses communicate effectively. 
+                From website copy to blog posts and social media content, I create engaging and persuasive written content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end service -->
+
+    <!-- start my-work -->
+    <section class="section my-work" id="work">
+      <!-- start container -->
+      <div class="container">
+        <div class="row">
+          <div class="d-flex align-items-center">
+            <div class="left-text">
+              <h2 class="mb-0">My Latest Work</h2>
+            </div>
+            <div class="right-text ms-auto">
+              <a
+                href=""
+                class="text-primary border-2 border-primary border-bottom"
+                >More Work
+                <img
+                  src="images/home/right-arrow-primary.png"
+                  alt=""
+                  class="img-fluid mb-1 ms-2"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- end row -->
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="work-slider" id="work-slider">
+              <div class="item">
+                <div class="work-image position-relative">
+                  <a href="https://porvoks.github.io/porvoks/" target="_blank">
+                    <img src="images/porvoks.png" alt="" class="img-fluid" />
+                    <div class="image-title mt-5 ms-5">
+                      <h4 class="mb-0">Web Design</h4>
+                      <p>Blog and Article - PorVoks</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- slider item -->
+              <div class="item">
+                <div class="work-image">
+                  <a href="">
+                    <img src="images/ui.png" alt="" class="img-fluid" />
+                    <div class="image-title mt-5 ms-5">
+                      <h4 class="mb-0">UI / UX Design</h4>
+                      <p>Website and Mobile App</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- slider item -->
+              <div class="item">
+                <div class="work-image">
+                  <a href="https://drive.google.com/file/d/1RvKXgFb9TZLMx43_qJZRTm8AQOq8GHl2/view?usp=share_link" target="_blank">
+                    <img src="images/desain.png" alt="" class="img-fluid" />
+                    <div class="image-title mt-5 ms-5 text-white">
+                      <h4 class="mb-0">Design</h4>
+                      <p class="text-white-50">E-Book</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- slider item -->
+              <div class="item">
+                <div class="work-image">
+                  <a href="https://instagram.com/fishlog.co.id?igshid=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images/fishlog.png" alt="" class="img-fluid" />
+                    <div class="image-title mt-5 ms-5 text-white">
+                      <h4 class="mb-0">Copywriting</h4>
+                      <p class="text-white-50">Social Media and Article Content</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end my-work -->
+
+    <!-- start blog 
+    <section class="section blog" id="blog">
+      # start container
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="text-center mb-4">
+              <h6 class="mb-0 text-muted fs-15">Blog</h6>
+              <h2>Our Regular News</h2>
+              <p class="para-width text-muted mb-0 fs-15">
+                A Private Limited is the most popular type of partnership Malta.
+                The limited liability is, in fact, the only type of company
+                allowed by Companies.
+              </p>
+            </div>
+          </div>
+        </div>
+        # end row
+
+        <div class="row">
+          <div class="col-lg-4 mt-4 pt-2">
+            <div class="blog-item p-4 box-shadow">
+              <div class="blog-image">
+                <img src="images/blog/img-1.png" alt="" class="img-fluid" />
+                <div class="blog-image-icon bg-blue">
+                  <i class="mdi mdi-lan fs-24"></i>
+                </div>
+              </div>
+              <div class="blog-content mt-5">
+                # <p class="text-muted fw-semibold mb-2">May 25, 2021</p>
+                <a href=""><h5>We makes UI/UX design very easy for you.</h5></a>
+                <p class="fs-15 text-muted">
+                  He nicked it tickety boo harry the cras bargy chap mush
+                  spiffing spend a penny.
+                </p>
+                <a href="" class="text-dark fw-semibold"
+                  >Learn more <i class="mdi mdi-arrow-right fs-16"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 pt-2">
+            <div class="blog-item p-4 box-shadow">
+              <div class="blog-image">
+                <img src="images/blog/img-2.png" alt="" class="img-fluid" />
+                <div class="blog-image-icon bg-secondary">
+                  <i class="mdi mdi-responsive fs-24"></i>
+                </div>
+              </div>
+              <div class="blog-content mt-5">
+                # <p class="text-muted fw-semibold mb-2">May 25, 2021</p>
+                <a href=""><h5>Current world design trends know easily.</h5></a>
+                <p class="fs-15 text-muted">
+                  He nicked it tickety boo harry the cras bargy chap mush
+                  spiffing spend a penny.
+                </p>
+                <a href="" class="text-dark fw-semibold"
+                  >Learn more <i class="mdi mdi-arrow-right fs-16"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 pt-2">
+            <div class="blog-item p-4 box-shadow">
+              <div class="blog-image">
+                <img src="images/blog/img-3.png" alt="" class="img-fluid" />
+                <div class="blog-image-icon bg-primary">
+                  <i class="mdi mdi-vector-combine fs-24"></i>
+                </div>
+              </div>
+              <div class="blog-content mt-5">
+                # <p class="text-muted fw-semibold mb-2">May 25, 2021</p>
+                <a href=""
+                  ><h5>We calculate clients demand for research.</h5></a
+                >
+                <p class="fs-15 text-muted">
+                  He nicked it tickety boo harry the cras bargy chap mush
+                  spiffing spend a penny.
+                </p>
+                <a href="" class="text-dark fw-semibold"
+                  >Learn more <i class="mdi mdi-arrow-right fs-16"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      # end container
+    </section>
+    # end blog -->
+
+    <!-- start contact -->
+    <section class="contact pt-5 pb-0" id="contact">
+      <!-- start container -->
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div class="col-lg-4">
+            <div class="left-text">
+              <h2>Let's Connect! 👋🏼</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="info-item box-shadow mt-3 pt-2">
+                    <div class="p-4">
+                        <div class="research avatar-sm bg-soft-purple text-center">
+                            <i class="mdi mdi-home-map-marker fs-24 text-purple"></i>
+                        </div>
+                        <h6 class="mt-4">Address</h6>
+                        <p class="text-muted fs-15">
+                           Cakung, Jakarta Timur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="info-item box-shadow mt-3 pt-2">
+                    <div class="p-4">
+                        <a href="https://wa.me/6285156869463" target="_blank">
+                        <div class="research avatar-sm bg-soft-primary text-center">
+                            <i class="mdi mdi-whatsapp fs-24 text-primary"></i>
+                        </div>
+                        </a>
+                        <h6 class="mt-4">WhatsApp</h6>
+                        <p class="text-muted fs-15">
+                            +62 851 5686 9463
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="info-item box-shadow mt-3 pt-2">
+                    <div class="p-4">
+                        <a href="mailto:annisaerlambang@gmail.com" target="_blank">
+                        <div class="research avatar-sm bg-soft-warning text-center">
+                            <i class="mdi mdi-email fs-24 text-warning"></i>
+                        </div>
+                        </a>
+                        <h6 class="mt-4">E-Mail</h6>
+                        <p class="text-muted fs-15 ">
+                            annisaerlambang@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="info-item box-shadow mt-3 pt-2">
+                    <div class="p-4">
+                        <a href="https://www.linkedin.com/in/annisaer" target="_blank">
+                        <div class="research avatar-sm bg-soft-blue text-center">
+                            <i class="mdi mdi-linkedin fs-24 text-blue"></i>
+                        </div>
+                        </a>
+                        <h6 class="mt-4">LinkedIn</h6>
+                        <p class="text-muted fs-15 ">
+                            Annisa Erlambang
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+      <!-- end container -->
+    </section>
+    <!-- end contact -->
+
+    <section class="bottom-footer py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <p class="mb-0 text-center text-muted">
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Annisa Erlambang. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end footer -->
+
+    <!--Bootstrap Js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Slider Js -->
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- conter -->
+    <script src="js/counter.init.js"></script>
+
+    <!-- App Js -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
