@@ -2,7 +2,6 @@
 // general.scss
 //
 
-
 body {
   font-family: $font-family-secondary;
   overflow-x: hidden !important;
@@ -51,17 +50,15 @@ html {
   scroll-behavior: smooth;
 }
 
-.row>* {
+.row > * {
   position: relative;
 }
 
-hr{
+hr {
   opacity: 0.15 !important;
 }
 
-
 @media (max-width: 768px) {
-
   .navbar-custom {
     margin-top: 0px;
     padding: 10px 0px !important;
@@ -89,7 +86,7 @@ hr{
     color: $white !important;
   }
 
-  .navbar-custom>.container {
+  .navbar-custom > .container {
     width: 90%;
   }
 
@@ -97,4 +94,3 @@ hr{
     display: none;
   }
 }
-
